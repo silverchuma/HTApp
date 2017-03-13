@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true"
+android:theme="@android:style/Theme.WithActionBar">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <!-- android:background="@drawable/register_background" -->
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tractor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+        	android:layout_gravity="center"
+        	android:gravity="center"
+            android:text="Create a Farmer"
+            android:textColor="#206FC1"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Name"
+            android:padding="12dp"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+        	android:layout_gravity="center"
+        	android:gravity="left"
+            android:text="Location"
+            android:textColor="#206FC1"
+            android:textSize="22sp"
+            android:textStyle="bold" /> 
+        
+		<EditText
+		    android:id="@+id/latitudes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Latitude"
+            android:singleLine="true"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:editable="false" />
+
+        <EditText
+            android:id="@+id/longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Longitude"
+            android:singleLine="true"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:editable="false" />
+       
+        
+        <EditText
+            android:id="@+id/farmsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Farm size"
+            android:singleLine="true"
+            android:padding="12dp"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Phone number"
+            android:singleLine="true"
+            android:padding="12dp"
+            android:inputType="phone"
+            android:textColor="#000"
+            android:textColorHint="#000" />
+        
+        
+
+       <!-- 
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:gravity="center">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you have an account ? "
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#f00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#f00"
+            android:layout_marginBottom="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        </LinearLayout>
+           -->
+       <!--  <Button
+        	android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="18dp"
+        	android:layout_gravity="right"
+        	android:paddingLeft="30px"
+        	android:paddingRight="30px"
+        	android:background="#206FC1"
+            android:text="Next >>> "
+            android:textColor="#fff" />-->
+
+    </LinearLayout>
+
+<View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        />
+    
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_margin="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you have an account ? "
+            android:textSize="15sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#f00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#f00"
+            android:layout_marginBottom="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout> -->
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp"
+        android:layout_margin="1dp"
+        android:gravity="right"
+        android:orientation="horizontal"
+        >
+     
+        <Button
+        	android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+        	android:paddingLeft="30px"
+        	android:paddingRight="30px"
+        	android:background="@drawable/buttonshape"
+            android:text="Create"
+             android:radius="5dp"
+            android:textColor="#fff" />
+        
+     </LinearLayout> 
+    
+    
+
+</RelativeLayout>
+
+ 
+
+
+
+    </ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloTractor</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- populating counntries and states dynamically -->
+    <string-array name="country_array">
+	<item>Select Country</item>
+    <item>Nigeria</item>
+    <item>India</item>
+	<item>Pakisthan</item>
+	<item>Sri Lanka</item>
+	</string-array>
+
+    <string-array name="state_nigeria">
+	<item>Abia</item>
+	<item>FCT</item>
+	<item>Lagos</item>
+	<item>Kano</item>
+    </string-array>
+
+    <string-array name="state_india">
+
+    <item>Mumbai</item>
+	<item>Chennai</item>
+	<item>Kolkata</item>
+	<item>Bangalore</item>
+	<item>Mumbai</item>
+	<item>Chennai</item>
+	<item>Kolkata</item>
+	<item>Bangalore</item>
+	
+	</string-array>
+
+    <string-array name="state_pakisthan">
+
+    <item>Karachi</item>
+	<item>Lahore</item>
+	<item>Faisalabad</item>
+	<item>Rawalpindi</item>
+
+    </string-array>
+
+    <string-array name="state_srilanka">
+
+    <item>Colombo</item>
+	<item>Dehiwala-Mount Lavinia</item>
+	<item>Moratuwa</item>
+	<item>Kotte</item>
+
+    </string-array>
+    
+    
+    
+</resources>
